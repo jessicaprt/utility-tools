@@ -11,6 +11,9 @@
     </head>
     <body>
         <div id="mortgageCalculator">
+            <div class="home-button">
+                <a href="index.html">Home</a> | Mortgage Calculator
+            </div>
             <h1>Mortgage Calculator</h1>
             Principal Amount:<br>
             <input type="text" name="principal" id="principal" >
@@ -24,9 +27,9 @@
             <button onClick="mortgageCalculator()">Calculate</button>
         </div>
         
-        <div class="result">
+        <div id="result">
             <h3>Your monthly payment is:</h3>
-            <p id="mc-result"></p>
+            <h2 id="mc-result">--</h2>
         </div>
     </body>
 </html>

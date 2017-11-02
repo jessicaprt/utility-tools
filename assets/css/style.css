@@ -4,6 +4,20 @@ body {
     margin: -20px 0;
 }
 
+.home-button {
+    text-align: left !important;
+    padding-left: 80px;
+}
+
+.home-button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.home-button a:hover {
+    font-weight: bold;
+}
+
 #mortgageCalculator {
     padding-top: 50px;
     text-align: center;
@@ -23,4 +37,20 @@ body {
 
 #mortgageCalculator .input-error {
     border: 3px solid #ff0066;
+}
+
+#mortgageCalculator button {
+    padding: 10px 30px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+    background-color: rgba(0,0,0,0);
+    color: #fff;
+}
+
+#result {
+    text-align: center;
+}
+
+#result h3 {
+    color: #6c648b;
 }
