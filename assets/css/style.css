@@ -1,0 +1,26 @@
+/** mortgage calculator **/
+body {
+    font-family: "Century Gothic";
+    margin: -20px 0;
+}
+
+#mortgageCalculator {
+    padding-top: 50px;
+    text-align: center;
+    height: 70vh;
+    background-color: #6c648b;
+    color: #fff;
+}
+
+#mortgageCalculator input {
+    padding: 10px 10px;
+    margin: 20px 0;
+    color: #6c648b;
+    background-color: rgba(255,255,255,0.6);
+    border: 1px solid #fff;
+    border-radius: 8px;
+}
+
+#mortgageCalculator .input-error {
+    border: 3px solid #ff0066;
+}
