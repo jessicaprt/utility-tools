@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- how to calculate mortgage, source: https://www.thebalance.com/calculate-mortgage-315668 -->
+
+<html>
+    <head>
+         <title>Measurement Converter</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/style.css" />
+		
+        <script src="assets/js/measuremet-converter.js"></script>
+    </head>
+    <body>
+        <div id="measurementConverter">
+            <h1>Measurement Converter</h1>
+            
+			<div class="options">
+				<div class="enter-result">
+					Enter Value:<br>
+					<input type="text" name="value" id="inputValue"> </input>
+					<p id="conversion-string">metre to feet</p><br>
+					<button onClick="convert()">Convert</button>
+					<br>
+				</div>
+				<div class="enter-result">
+					Result:
+					<p id="converter-result"></p>
+				</div>
+			</div>
+			<div class="options">
+				<h3>Length:</h3>		
+				<input type="radio" name="option" value="metre to feet" onclick="changeConversionString(0)" checked> metre to feet</input><br>
+				<input type="radio" name="option" value="feet to metres" onclick="changeConversionString(1)"> feet to metres</input><br>
+				<input type="radio" name="option" value="kilometres to miles" onclick="changeConversionString(2)"> kilometres to miles</input><br>
+				<input type="radio" name="option" value="miles to kilometres" onclick="changeConversionString(3)"> miles to kilometres</input><br>
+	
+				<h3>Volume:</h3>		
+				<input type="radio" name="option" value="metre<sup>3</sup> to feet<sup>3</sup>" onclick="changeConversionString(4)"> metre<sup>3</sup> to feet<sup>3</sup></input><br>
+				<input type="radio" name="option" value="feet<sup>3</sup> to metres<sup>3</sup>" onclick="changeConversionString(5)"> feet<sup>3</sup> to metres<sup>3</sup></input><br>
+				
+			</div>
+
+			<div class="options">
+				<h3>Area:</h3>		
+				<input type="radio" name="option" value=" metre<sup>2</sup> to feet<sup>2</sup>" onclick="changeConversionString(6)"> metre<sup>2</sup> to feet<sup>2</sup></input><br>
+				<input type="radio" name="option" value="feet<sup>2</sup> to metres<sup>2</sup>" onclick="changeConversionString(7)"> feet<sup>2</sup> to metres<sup>2</sup></input><br>
+				<input type="radio" name="option" value=" kilometres<sup>2</sup> to miles<sup>2</sup>" onclick="changeConversionString(8)"> kilomtres<sup>2</sup> to miles<sup>2</sup></input><br>
+				<input type="radio" name="option" value="miles<sup>2</sup> to kilometres<sup>2</sup>" onclick="changeConversionString(9)"> miles<sup>2</sup> to kilometres<sup>2</sup></input><br>
+
+				<h3>Volume:</h3>		
+				<input type="radio" name="option" value="gram to pound" onclick="changeConversionString(10)"> gram to pound</input><br>
+				<input type="radio" name="option" value="pound to gram" onclick="changeConversionString(11)"> pound to gram</input><br>
+			</div>
+		</div>
+    </body>
+</html>
