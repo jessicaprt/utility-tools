@@ -8,6 +8,9 @@ function registerListeners() {
 	
 	tool = document.getElementById("mortgage-calculator");
 	tool.addEventListener("click", function() { getContent("mortgage-calculator.html"); }, false);
+	
+	tool = document.getElementById("simple-calculator");
+	tool.addEventListener("click", function() { getContent("simple-calculator.html"); }, false);
 }
 
 function getContent(url) {
@@ -27,9 +30,7 @@ function switchTool() {
 	clearContent();
 	if (asyncRequest.readyState == 4 && asyncRequest.status == 200) {
 		
-		document.getElementById("content").innerHTML = asyncRequest.responseText;
-//		document.getElementById(("content").appendChild();
-								
+		document.getElementById("content").innerHTML = asyncRequest.responseText;								
 								
 	}
 }
