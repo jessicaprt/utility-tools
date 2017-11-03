@@ -1,7 +1,22 @@
+/** index **/
+.states {
+	padding: 30px 10px;
+	background-color: #444;
+	color: #fff;
+}
+
+.states button {
+	padding: 10px 30px;
+	background-color: rgba(0,0,0,0.3);
+	font-size: 18px;
+	color: #fff;
+	border-style: none;
+}
+
 /** mortgage calculator **/
 body {
     font-family: "Century Gothic";
-    margin: -20px 0;
+    margin: 0;
 }
 
 .home-button {
